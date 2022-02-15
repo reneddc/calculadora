@@ -2,8 +2,7 @@
   "name": "calculator",
   "version": "1.0.0",
   "description": "npm install",
-  "main": "presenter.js",
-  
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -19,6 +18,6 @@
     "jest": "^27.4.7",
     "parcel": "^2.2.0",
     "parcel-bundler": "^1.12.5"
-  }
-  
+  },
+  "main": "index.js"
 }
